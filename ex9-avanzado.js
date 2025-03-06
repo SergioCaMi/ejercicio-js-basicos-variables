@@ -13,9 +13,11 @@ console.log(texto.charAt(texto.length-1));
 
 console.log("Ejercicio 4: Primeros 3 caracteres del string"); 
 console.log(texto.slice(0, 3)); 
+console.log(texto.substring(0, 3));  
 
 console.log("Ejercicio 5: Últimos 3 caracteres del string"); 
 console.log(texto.slice(-3)); 
+console.log(texto.substring(texto.length - 3)); 
 
 console.log("Ejercicio 6: String en mayúsculas"); 
 console.log(texto.toLocaleUpperCase()); 
@@ -30,4 +32,6 @@ console.log("Ejercicio 9: Posición del último carácter 's'");
 console.log(texto.lastIndexOf("s")); 
 
 console.log("Ejercicio 10: String en orden inverso"); 
-console.log(texto.split(' ').reverse().join('')); 
+console.log(texto.split('').reverse().join('')); 
+ 
+
