@@ -11,7 +11,7 @@
  let futureYear = 2050;
  let birthYear;
 
- let message;
+ let message = "En el año " + futureYear + "yo voy a tener " + (futureYear - 1984) + " o " + (futureYear - 1983) + " años";
 
  console.log(message);
  
